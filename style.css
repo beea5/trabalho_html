@@ -28,7 +28,18 @@ nav{
     width: 1440px;
     height: 120px;
     flex-shrink: 0;
+    height: 18vh;
 }
+
+main {
+    background: url(imgs/casal-desfrutando-de-comida-no-restaurante.jpg) no-repeat center center;
+    width: 1440px;
+height: 820px;
+flex-shrink: 0;
+    background-size: cover;
+    height: 83vh;
+}
+
 img{
 flex-shrink: 0;
 }
