@@ -38,8 +38,9 @@ list-style: none;
 display: flex;
 }
 
-.nav-list {
+.nav-list li {
     display: inline-flex;
-align-items: flex-start;
-gap: 31px;
+    align-items: flex-start;
+    gap: 31px;
+    margin-left: 31px;
 }
