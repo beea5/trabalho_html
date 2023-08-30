@@ -32,12 +32,27 @@ nav{
 }
 
 main {
-    background: url(imgs/casal-desfrutando-de-comida-no-restaurante.jpg) no-repeat center center;
+    background: url(imgs/casal-desfrutando-de-comida-no-restaurante.png) no-repeat center center;
     width: 1440px;
 height: 820px;
 flex-shrink: 0;
     background-size: cover;
     height: 83vh;
+}
+
+.titulo{
+    color: #FFF;
+    font-family: Oleo Script Swash Caps, sans-serif;
+    font-size: 40px;
+    width: 776px;
+    height: 146px;
+    flex-shrink: 0;   
+}
+h1{
+    width: 776px;
+    height: 146px;
+    flex-shrink: 0;
+
 }
 
 img{
