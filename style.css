@@ -29,33 +29,6 @@ nav{
     height: 13vh;
 }
 
-.fundo{
-    background: url(imgs/casal-desfrutando-de-comida-no-restaurante2.png);
-    background-size: cover;
-    height: cal(100v - 80vh);
-    height: 86vh}
-
-.fundo .banner-text{
-    justify-content: center;
-    margin: 150px;
-    text-align: center;
-    padding: 0 90px;
-}
-
-.banner-text h1{
-    color: #FFF;
-    font-family: Oleo Script Swash Caps, sans-serif;
-    font-size: 40px; 
-    text-align: -webkit-center;;
-
-}
-h1{
-    width: 776px;
-    height: 146px;
-    flex-shrink: 0;
-}
-
-
 .nav-list {
 list-style: none;
 display: flex;
@@ -69,9 +42,49 @@ display: flex;
     margin-left: 31px;
 }
 
+
+section{
+ padding:2rem 9%;
+}
+
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 81vh;
+    background: url(imgs/casal-desfrutando-de-comida-no-restaurante2.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.home .text{
+    text-align: center;
+    line-height:normal;
+    width: 60rem;
+    }
+
+
+.home .text h1{
+    color: white;
+    font-size: 96px;
+    font-family: Oleo Script Swash Caps;
+}
+
+.home .text p{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 .btn{
     background-color: #621B00;
-    color: #FFF;
+    color: #ffffff;
     padding: 14px 14px;
     border-radius: 1000px;
+    
 }
