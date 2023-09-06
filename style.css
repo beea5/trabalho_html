@@ -77,14 +77,35 @@ section{
 text-align: center;
 font-family: Poppins;
 font-size: 1rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+font-weight: 40;
 }
 .btn{
-    background-color: #621B00;
+    background: #611b00;
     color: #ffffff;
     padding: 14px 14px;
     border-radius: 1000px;
-    
+    display: inline-block;
+    margin-top: 4rem;
+    cursor: pointer;
+}
+
+.about .text{
+    display: inline-flex;
+padding: 0rem 0rem 8.75rem 0.6875rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 5.811rem;
+}
+.img1{
+    width: 17rem;
+    height: 14rem;
+
+}
+.img2{
+    width: 17rem;
+    height: 14rem;
+}
+.img3{
+    width: 17rem;
+    height: 14rem;
 }
