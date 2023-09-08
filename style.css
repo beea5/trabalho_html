@@ -107,7 +107,7 @@
   .img1:nth-child(1) {
     grid-row: 1 / 3;
 }
-.text hr {
+.about .text hr {
     height: 2px;
     width: 129px;
     background: #D17542;
@@ -150,26 +150,24 @@ border-radius: 1000px;
   .menu{
     
 margin-top: 700px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
     }
     
 
 
  .menu .text h1{
-    width: 176px;
+ 
 height: 65px;
 flex-shrink: 0;
 color: var(--dark, #1C1C1C);
 font-family: Oleo Script Swash Caps;
 font-size: 64px;
-font-style: normal;
 font-weight: 400;
 text-align: center;
-
 
  }
 
@@ -185,3 +183,14 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
  }
+ .menu .text hr {
+    height: 2px;
+    width: 128px;
+    background: #D17542;
+        margin: 0;
+        border: none;
+        border-top: 1px;
+        margin-top: 41px;
+        margin-bottom: 41px;
+      }
+  
