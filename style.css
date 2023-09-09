@@ -79,6 +79,7 @@ nav {
   display: inline-block;
   margin-top: 4rem;
   cursor: pointer;
+  background-color: #611b00;
 }
 
 .imagemDivAbout {
@@ -144,6 +145,7 @@ nav {
   padding: 14px 10px;
   margin-top: 6rem;
   border-radius: 1000px;
+  background-color: #611b00;
 }
 
 .menu {
@@ -153,7 +155,7 @@ nav {
   justify-content: center;
   text-align: center;
   height: 10vh; /* Altura da área do menu */
-  margin-top: 700px; /* Espaço superior */
+  margin-top: 400px; /* Espaço superior */
 }
 
 .menu .text h1 {
@@ -168,11 +170,10 @@ nav {
   width: 129px;
   background: #d17542;
   margin: 0;
-  border: none;
   border-top: 1px;
   margin-top: 41px;
   margin-bottom: 41px;
-  vertical-align: middle;
+  margin-left: 290px;
 }
 
 .menu .text p {
@@ -180,9 +181,8 @@ nav {
   color: var(--texto, #7d7d7d);
   font-family: Poppins;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  margin-top: 51px;
+  margin-bottom: 51px;
 }
 
 .gridM {
@@ -191,8 +191,11 @@ nav {
   grid-auto-rows: 200px;
   grid-column-gap: 72px;
   grid-row-gap: 40px;
+  margin-top: 51px;
+  margin-bottom: 51px;
+  filter: brightness(60%);
 }
 
-.dinner {
-  box-shadow: 50px 0px 10px rgba(0, 0, 0, 0.2);
+.textoM {
+  z-index: 100px;
 }
