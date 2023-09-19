@@ -189,7 +189,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 200px;
-  grid-column-gap: 72px;
+  grid-column-gap: 10px;
   grid-row-gap: 40px;
   margin-top: 51px;
   margin-bottom: 51px;
@@ -198,6 +198,57 @@ nav {
 .gridM img {
   filter: brightness(60%);
 }
+
+.bntM{
+  
+  border-radius: 50%;
+  width: 54px;
+  height: 61px;
+  position: relative;
+  top: -45%;
+  left: -50%;
+
+}
+
+.dinner .bntM{
+  background: url(imgs/dinner_ep.png);
+  background-color: #535981;
+  border: none;
+  box-shadow: 0px -1px 14px 9px rgba(0, 0, 0);
+}
+.salad .bntM{
+  background: url(imgs/salad_ep.png);
+  background-color: #535981;
+  border: none;
+  box-shadow: 0px -1px 14px 9px rgba(0, 0, 0);
+}
+.lunche .bntM{
+  background: url(imgs/lunche_ep.png);
+  background-color: #535981;
+  border: none;
+  box-shadow: 0px -1px 14px 9px rgba(0, 0, 0);
+}
+.vegan .bntM{
+  background: url(imgs/vegan_ep.png)  center no-repeat;
+  background-color: #535981;
+  border: none;
+  box-shadow: 0px -1px 14px 9px rgba(0, 0, 0);
+}
+.desserts .bntM{
+  background: url(imgs/desserts_ep.png);
+  background-color: #535981;
+  border: none;
+  box-shadow: 0px -1px 14px 9px rgba(0, 0, 0);
+}
+.drinks .bntM{
+  background: url(imgs/drink_ep.png);
+  background-color: #535981;
+  border: none;
+  box-shadow: 0px -1px 14px 9px rgba(0, 0, 0);
+}
+.bntM:hover {
+  background-color: #FF4D02;} /*cor porvisoria*/
+
 
 .textoM {
   z-index: 100px;
@@ -209,7 +260,7 @@ nav {
   text-align: absolute;
   position: relative;
   top: -40%;
-  left: 0%;
+  left: -7%;
   color: white;
 }
 
@@ -220,13 +271,14 @@ nav {
 }
 
 .promotion hr {
-  border: 2px solid #ff9900;
-  height: 2px;
-  width: 19px;
+  position: absolute;
+   height: 60px;
+  width: 4px;
+  top: 705px;;
   background: #d17542;
   border: none;
-  border-top: 144px;
-  margin-left: -188px;
+margin-left: 830px;
+  margin-top: 41px;
 }
 .oferta {
   position: relative;
@@ -242,9 +294,8 @@ nav {
   text-align: left;
   top: 727px;
   right: 0;
-  text-align: center;
   color: #ffffff;
-  margin-right: 244px;
+  margin-right: 104px;
 }
 
 .bntD {
