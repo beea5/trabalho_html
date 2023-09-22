@@ -408,12 +408,25 @@ color: #ffffff;
 
 .gridR {/*serviços*/
   display: grid;
-  grid-template-columns: 200px 200px 200px;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 350px;
   grid-column-gap: 100px;
   margin-top: 90px;
-  margin-left: 253px;
+  margin-left: 103px;
+}
+.gridR .Isabela_S{
+  background-color: #ffffff;
+  
 }
 
+.gridR .Star{
+  background-image: url(imgs/Star\ 1.png);
+background-repeat: repeat;
+background-size: 19px 23px; /* Ajuste o tamanho conforme necessário width: 19px
+height: 23px
+*/
+
+}
 
 .bntD {
   position: relative;
