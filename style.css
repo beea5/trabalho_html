@@ -1,9 +1,11 @@
+/*all*/
 * {
   margin: 0;
   padding: 0;
-}
+}/*all*/
 
-a {
+
+a { /*navbar*/
   color: white;
   text-decoration: none;
   transition: 0.3s;
@@ -38,9 +40,9 @@ nav {
   align-items: flex-start;
   gap: 31px;
   margin-left: 31px;
-}
+}/*navbar*/
 
-.home {
+.home {/*home*/
   padding: 2rem 9%;
   display: flex;
   align-items: center;
@@ -80,9 +82,9 @@ nav {
   margin-top: 4rem;
   cursor: pointer;
   background-color: #611b00;
-}
+}/*home*/
 
-.imagemDivAbout {
+.imagemDivAbout {/*about*/
   width: 50%;
   padding: 20px;
 }
@@ -146,9 +148,9 @@ nav {
   margin-top: 6rem;
   border-radius: 1000px;
   background-color: #611b00;
-}
+}/*about*/
 
-.menu {
+.menu {/*menu*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -199,56 +201,54 @@ nav {
   filter: brightness(60%);
 }
 
-.bntM{
-  
+.bntM {
   border-radius: 50%;
   width: 54px;
   height: 61px;
   position: relative;
   top: -45%;
   left: -50%;
-
 }
 
-.dinner .bntM{
+.dinner .bntM {
   background: url(imgs/dinner_ep.png);
   background-color: #535981;
   border: none;
   box-shadow: 0px -1px 14px 9px rgba(0, 0, 0);
 }
-.salad .bntM{
+.salad .bntM {
   background: url(imgs/salad_ep.png);
   background-color: #535981;
   border: none;
   box-shadow: 0px -1px 14px 9px rgba(0, 0, 0);
 }
-.lunche .bntM{
+.lunche .bntM {
   background: url(imgs/lunche_ep.png);
   background-color: #535981;
   border: none;
   box-shadow: 0px -1px 14px 9px rgba(0, 0, 0);
 }
-.vegan .bntM{
-  background: url(imgs/vegan_ep.png)  center no-repeat;
+.vegan .bntM {
+  background: url(imgs/vegan_ep.png) center no-repeat;
   background-color: #535981;
   border: none;
   box-shadow: 0px -1px 14px 9px rgba(0, 0, 0);
 }
-.desserts .bntM{
+.desserts .bntM {
   background: url(imgs/desserts_ep.png);
   background-color: #535981;
   border: none;
   box-shadow: 0px -1px 14px 9px rgba(0, 0, 0);
 }
-.drinks .bntM{
+.drinks .bntM {
   background: url(imgs/drink_ep.png);
   background-color: #535981;
   border: none;
   box-shadow: 0px -1px 14px 9px rgba(0, 0, 0);
 }
 .bntM:hover {
-  background-color: #FF4D02;} /*cor porvisoria*/
-
+  background-color: #ff4d02;
+} /*cor porvisoria*/
 
 .textoM {
   z-index: 100px;
@@ -262,9 +262,9 @@ nav {
   top: -40%;
   left: -7%;
   color: white;
-}
+}/*menu*/
 
-.promotion img {
+.promotion img {/*promotion*/
   width: 1349px;
   margin-top: 100vh;
   filter: brightness(60%);
@@ -272,12 +272,12 @@ nav {
 
 .promotion hr {
   position: absolute;
-   height: 60px;
+  height: 60px;
   width: 4px;
-  top: 705px;;
+  top: 705px;
   background: #d17542;
   border: none;
-margin-left: 830px;
+  margin-left: 830px;
   margin-top: 41px;
 }
 .oferta {
@@ -296,87 +296,133 @@ margin-left: 830px;
   right: 0;
   color: #ffffff;
   margin-right: 104px;
-}
+}/*promotion*/
 
-.gridS{
+.gridS {/*serviços*/
   display: grid;
   grid-template-columns: 200px 200px 200px;
   grid-column-gap: 100px;
   margin-top: 90px;
   margin-left: 253px;
-
 }
-.Reserve img{
+.Reserve img {
   margin-left: 78px;
 }
-.delivery img{
+.delivery img {
   margin-left: 78px;
 }
-.take_away img{
+.take_away img {
   margin-left: 78px;
 }
 
-.gridS h1{
- text-align: center
- ;
- font-family: Oleo Script Swash Caps;
-font-size: 24px;
-font-weight: 400;
-line-height: 33px;
-letter-spacing: 0em;
-
+.gridS h1 {
+  text-align: center;
+  font-family: Oleo Script Swash Caps;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
 }
 
-.textoS h1{
+.textoS h1 {
+  font-family: Oleo Script Swash Caps;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 89px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.textoS hr {
+  margin-left: 615px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  width: 128px;
+  border: none;
+  border: 1px solid rgba(209, 117, 66, 1);
+}
+
+.textoS p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-left: 253px;
+  margin-right: 253px;
+  color: #7d7d7d;
+}
+
+.gridS p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #7d7d7d;
+}/*serviços*/
+
+.review{
+  margin-top: 100px;
+background: url(imgs/review_F.jpg) no-repeat;
+background-size: cover;
+width: 1349px;
+height: 650px;
+}
+
+.textoR h1{
   font-family: Oleo Script Swash Caps;
 font-size: 64px;
 font-weight: 400;
 line-height: 89px;
 letter-spacing: 0em;
 text-align: left;
+color: #ffffff;
 text-align: center;
+margin-top: ;
 }
 
-.textoS hr{
-  margin-left: 615px;
-  margin-top: 35px;
-  margin-bottom: 35px;
-  width: 128px;
-border: none;
-border: 1px solid rgba(209, 117, 66, 1)
+.textoR hr{
+  height: 2px;
+  width: 129px;
+  background:#621B00;
+  margin: 0;
+ border: none;
+  margin-top: 31px;
+  margin-bottom: 31px;
+  margin-left: 490px;
 }
-
-
-.textoS p{
-font-family: Poppins;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 1px;
-text-align: center;
-margin-left: 253px;
-margin-right: 253px;
-color: #7D7D7D;
-}
-
-.gridS p{
+.textoR p{
 font-family: Poppins;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0em;
 text-align: center;
-color: #7D7D7D;
+color: #ffffff;
 }
+
+.gridR {/*serviços*/
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-column-gap: 100px;
+  margin-top: 90px;
+  margin-left: 253px;
+}
+
 
 .bntD {
   position: relative;
   text-align: center;
-}
+} /*esse botão e da onde?*/
 
 .reserve {
   height: 10vh; /* Altura da área do menu */
-  margin-top: 400px; /* Espaço superior */
+  margin-top: 200px; /* Espaço superior */
 }
 .reserve h1 {
   font-family: Oleo Script Swash Caps;
@@ -395,6 +441,7 @@ color: #7D7D7D;
   border-top: 1px;
   margin-top: 41px;
   margin-bottom: 41px;
+  
 }
 
 .reserve p {
@@ -403,6 +450,9 @@ color: #7D7D7D;
   font-weight: 400;
   line-height: 24px;
   text-align: center;
+  margin-left: 253px;
+  margin-right: 253px;
+  color: #615f5f;
 }
 
 .formulario {
