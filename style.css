@@ -594,3 +594,44 @@ nav {
 .form_box button:hover {
   background-color: #883819;
 }
+
+.score {
+  background: url(imgs/Rectangle\19-1png) no-repeat;
+}
+
+.gridF {
+  display: grid;
+  grid-template-columns: repeat(3, 300px); /* Define três colunas de 100px cada */
+  gap: 150px; /* Espaçamento entre os itens */
+  justify-items: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+  height: 350px; /* Altura do container para exemplo */
+  margin-left: 80px;
+  filter: none;
+}
+.gridF h1 {
+  font-family: Oleo Script Swash Caps;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f3f3f3;
+}
+
+.gridF p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.gridF hr {
+  height: 2px;
+  width: 129px;
+  background: #9b2c00;
+  margin: 0;
+  border: none;
+}
