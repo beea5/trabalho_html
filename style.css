@@ -2,10 +2,10 @@
 * {
   margin: 0;
   padding: 0;
-}/*all*/
+} /*all*/
 
-
-a { /*navbar*/
+a {
+  /*navbar*/
   color: white;
   text-decoration: none;
   transition: 0.3s;
@@ -40,9 +40,10 @@ nav {
   align-items: flex-start;
   gap: 31px;
   margin-left: 31px;
-}/*navbar*/
+} /*navbar*/
 
-.home {/*home*/
+.home {
+  /*home*/
   padding: 2rem 9%;
   display: flex;
   align-items: center;
@@ -82,9 +83,10 @@ nav {
   margin-top: 4rem;
   cursor: pointer;
   background-color: #611b00;
-}/*home*/
+} /*home*/
 
-.imagemDivAbout {/*about*/
+.imagemDivAbout {
+  /*about*/
   width: 50%;
   padding: 20px;
 }
@@ -148,9 +150,10 @@ nav {
   margin-top: 6rem;
   border-radius: 1000px;
   background-color: #611b00;
-}/*about*/
+} /*about*/
 
-.menu {/*menu*/
+.menu {
+  /*menu*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -262,9 +265,10 @@ nav {
   top: -40%;
   left: -7%;
   color: white;
-}/*menu*/
+} /*menu*/
 
-.promotion img {/*promotion*/
+.promotion img {
+  /*promotion*/
   width: 1349px;
   margin-top: 100vh;
   filter: brightness(60%);
@@ -296,9 +300,10 @@ nav {
   right: 0;
   color: #ffffff;
   margin-right: 104px;
-}/*promotion*/
+} /*promotion*/
 
-.gridS {/*serviços*/
+.gridS {
+  /*serviços*/
   display: grid;
   grid-template-columns: 200px 200px 200px;
   grid-column-gap: 100px;
@@ -364,68 +369,127 @@ nav {
   letter-spacing: 0em;
   text-align: center;
   color: #7d7d7d;
-}/*serviços*/
+} /*serviços*/
 
-.review{
+.review {
+  background: url(imgs/review_F.jpg) no-repeat;
+  background-size: cover;
+  width: 1349px;
+  height: 650px;
+}
+
+.textoR {
+  text-align: center;
   margin-top: 100px;
-background: url(imgs/review_F.jpg) no-repeat;
-background-size: cover;
-width: 1349px;
-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.textoR h1{
+.textoR h1 {
   font-family: Oleo Script Swash Caps;
-font-size: 64px;
-font-weight: 400;
-line-height: 89px;
-letter-spacing: 0em;
-text-align: left;
-color: #ffffff;
-text-align: center;
-margin-top: ;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 89px;
+  letter-spacing: 0em;
+  color: #f3f3f3;
+  text-align: center;
 }
 
-.textoR hr{
+.textoR hr {
   height: 2px;
   width: 129px;
-  background:#621B00;
+  background: #8a452a;
   margin: 0;
- border: none;
+  border: none;
   margin-top: 31px;
   margin-bottom: 31px;
-  margin-left: 490px;
+  margin-left: 600px;
 }
-.textoR p{
-font-family: Poppins;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: center;
-color: #ffffff;
+.textoR p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #f3f3f3;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
-.gridR {/*serviços*/
+.gridR {
+  /*serviços*/
   display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-template-rows: 350px;
-  grid-column-gap: 100px;
-  margin-top: 90px;
-  margin-left: 103px;
+  grid-template-columns: repeat(3, 300px); /* Define três colunas de 100px cada */
+  gap: 150px; /* Espaçamento entre os itens */
+  justify-items: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+  height: 500px; /* Altura do container para exemplo */
+  margin-left: 80px;
 }
-.gridR .Isabela_S{
+
+.gridR h1 {
+  font-family: Oleo Script Swash Caps;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-align: center;
+}
+.gridR img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.gridR p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-align: center;
+}
+.gridR .Isabela_S {
   background-color: #ffffff;
-  
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gridR .Ling_w {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gridR .Aliyah_k {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.gridR .Star{
-  background-image: url(imgs/Star\ 1.png);
-background-repeat: repeat;
-background-size: 19px 23px; /* Ajuste o tamanho conforme necessário width: 19px
-height: 23px
-*/
+.rating {
+  font-size: 0; /* Remove o espaço entre as estrelas */
+}
 
+.star {
+  display: inline-block;
+  width: 20px; /* Largura da estrela */
+  height: 20px; /* Altura da estrela */
+  background-color: gold; /* Cor da estrela não preenchida */
+  clip-path: polygon(50% 0%, 61.8% 35.3%, 98.2% 35.3%, 68.2% 57.3%, 79.1% 91.7%, 50% 70.5%, 20.9% 91.7%, 31.8% 57.3%, 1.8% 35.3%, 38.2% 35.3%); /* Cria a forma de uma estrela */
+  margin-right: 5px; /* Espaçamento entre as estrelas */
 }
 
 .bntD {
@@ -454,7 +518,6 @@ height: 23px
   border-top: 1px;
   margin-top: 41px;
   margin-bottom: 41px;
-  
 }
 
 .reserve p {
