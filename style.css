@@ -2,7 +2,13 @@
 * {
   margin: 0;
   padding: 0;
+  margin: auto;
 } /*all*/
+
+@media (max-width: 768px) {
+  /* Estilos para telas menores, como smartphones */
+  /* Você pode ajustar o estilo do menu, tamanho de fontes, margens, etc. */
+}
 
 html {
   scroll-behavior: smooth;
