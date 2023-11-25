@@ -164,3 +164,27 @@
     text-align: center;
   }
   
+  @media screen and (min-width: 768px) {
+    nav {
+      flex-direction: row;
+    }
+  
+    .nav-list {
+      flex-direction: row;
+    }
+  
+    .nav-list li {
+      margin: 0 15px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .item {
+      width: calc(50% - 20px);
+    }
+  }
+  @media screen and (min-width: 768px) {
+    footer {
+      flex-direction: row;
+    }
+  }
+  

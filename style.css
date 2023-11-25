@@ -291,40 +291,8 @@ nav {
   left: 0%;
 }
 
-.promotion img {
-  /*promotion*/
-  width: 1349px;
-  margin-top: 10vh;
-  filter: brightness(60%);
-}
 
-.promotion hr {
-  position: absolute;
-  height: 60px;
-  width: 4px;
-  top: 705px;
-  background: #d17542;
-  border: none;
-  margin-left: 830px;
-  margin-top: -600px;
-}
-.oferta {
-  position: relative;
-}
 
-.textoP {
-  position: absolute;
-  font-family: Poppins;
-  font-size: 50px;
-  font-weight: 400;
-  line-height: 75px;
-  letter-spacing: 0em;
-  text-align: left;
-  top: 100px;
-  right: 0;
-  color: #ffffff;
-  margin-right: 104px;
-} /*promotion*/
 
 .gridS {
   /*serviços*/
@@ -515,7 +483,7 @@ nav {
 }
 
 .gridR {
-  /*serviços*/
+
   display: grid;
   grid-template-columns: repeat(3, 300px); /* Define três colunas de 100px cada */
   gap: 150px; /* Espaçamento entre os itens */
@@ -866,20 +834,7 @@ font-family: Poppins;
   /* Outros estilos específicos para telas menores */
 }
 
-@media (max-width: 768px) {
-  .promotion img {
-    width: 100%; /* A imagem ocupará 100% da largura do contêiner em telas menores */
-    margin-top: 0; /* Redefina a margem superior */
-  }
 
-  .promotion hr {
-    font-size: 24px;
-  }
-
-  .textoP {
-    font-size: 24px;
-  }
-}
 
 @media (max-width: 768px) {
   /* Estilos para telas maiores */
@@ -952,35 +907,7 @@ font-family: Poppins;
   background-color: #611b00;
 }
 }
-@media (max-width: 768px) {
-  /* Ajuste os estilos para telas menores aqui */
-  .review {
-    width: 100%;
-    height: auto;
-  }
 
-  .gridR.mobile {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 30px;
-  }
-
-  .textoR.mobile h1 {
-    font-size: 36px;
-    margin-top: 50px;
-  }
-
-  .textoR.mobile hr {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .textoR.mobile p,
-  .gridR.mobile p {
-    font-size: 14px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-}
 @media (max-width: 768px) {
   .gridS {
     display: block; /* Exibir os elementos um abaixo do outro em telas menores */
@@ -1014,5 +941,18 @@ font-family: Poppins;
     font-size: 14px; /* Reduza o tamanho da fonte para telas menores */
     margin-left: 0; /* Redefina a margem esquerda */
     margin-right: 0; /* Redefina a margem direita */
+  }
+}
+@media screen and (max-width: 768px) {
+  .gridF {
+    grid-template-columns: 100%; /* Uma coluna em telas menores */
+    gap: 20px; /* Reduza o espaçamento entre os itens */
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  /* Esconda os elementos adicionais em telas menores */
+  .gridF > *:nth-child(n+4) {
+    display: none;
   }
 }
