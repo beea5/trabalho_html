@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin: auto;
+  font-family: Poppins;
+} /*all*/
+
+html {
+  scroll-behavior: smooth;
+}
+a {
+  /*navbar*/
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif;
+  height: 13vh;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 9px;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 180vh;
+}
+.form_box {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 700px;
+}
+
+.form_box form {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  padding: 32px;
+}
+
+.form_box input,
+.form_box textarea {
+  width: calc(50% - 8px);
+  height: 50px;
+  border: thin solid #888888;
+  margin-bottom: 28px;
+  font-size: 16px;
+  font-family: Poppins;
+}
+.form_box input[name="name"] {
+  width: 100%;
+}
+.form_box input[name="email"] {
+  width: 100%;
+}
+.form_box input[name="number"] {
+  width: 50%;
+}
+.form_box textarea {
+  width: 100%;
+  height: 290px;
+  padding: 16px;
+}
+
+footer {
+  display: flex; /* Usamos flexbox para alinhar os grids lado a lado */
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilos para os grids */
+.grid-item {
+  flex: 1; /* Cada grid ocupa a mesma largura disponível */
+  background-color: #000000;
+  color: #7d7d7d;
+  padding: 10px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.gridImgC {
+  text-align: center;
+}
+
+/* Estilos para a seção de informações de contato */
+.contact-info {
+  background-color: #000000;
+  color: #7d7d7d;
+  padding: 10px;
+  text-align: left;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.contact-info h3 {
+  color: white;
+  font-family: Oleo Script Swash Caps;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 50px;
+}
+.final {
+  background-color: #313131;
+  color: #ffffff;
+  font-family: Poppins;
+}
+
+.direitos {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 600px) {
+  form {
+      max-width: 100%;
+  }
+}
