@@ -5,6 +5,9 @@ O projeto que estamos desenvolvendo é um site para um restaurante, que oferecer
 ## Design do Site
 Você pode conferir o design do site no [Figma](https://www.figma.com/file/0mypWwbL1VAGUu3Y9EEVWW/Untitled?type=design&node-id=5%3A11&mode=design&t=UuuFhjD4Y7go5SsZ-1).
 
+## Segundo repositório
+[Repositório](https://github.com/beea5/lotusrestaurante)
+
 ## Participantes
 - Adrielle Souza de Queiroz (Matrícula: 202303845901)
 - Beatriz Colombo de Oliveira (Matrícula: 202303878451)
